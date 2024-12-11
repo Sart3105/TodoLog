@@ -1,0 +1,11 @@
+.m1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signIn{
+    height: 200px;
+    width: 50%;
+    background-color: lightcoral;
+}
