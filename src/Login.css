@@ -1,11 +1,110 @@
 .m1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   display: flex;
+   justify-content: center;
+   
+    
 }
 
 .signIn{
-    height: 200px;
-    width: 50%;
-    background-color: lightcoral;
+    
+    backdrop-filter: blur(3px);
+    border-radius: 3%;
+    margin-top: 90px;
+    height: 400px;
+    width: 35%;
+    border: 1px solid gray
+    
 }
+.signIn input[type=text]{
+    margin: 20px 35px;
+    padding: 20px;
+}
+.signIn input[type=password]{
+    margin: 20px 35px;
+    padding: 20px;
+}
+
+
+.signIn h4{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+}
+
+::placeholder{
+    color: white;
+}
+
+.user{
+    border-radius: 18px;
+    border: 1px solid white;
+    
+    width: 80%;
+    height: 35px;
+    color: white;
+    margin-left: 10%;
+    margin-top: 20px;
+    background: none;
+}
+
+.bottom label{
+    color: wheat;
+    font-size: 13px;
+ }
+ .bottom{
+    margin-top: 10px;
+    margin-left: 9%;
+    display: flex;
+    /* background-color: aqua; */
+    width: 78%;
+    justify-content: space-between;
+    
+ }
+
+ .forgot label:hover{
+    cursor: pointer;
+    text-decoration: underline;
+ }
+
+.login{
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+ .logbutton{
+    background-color: white;
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    /* border: 2px solid white; */
+    
+    font-weight:bold;
+ }
+
+ 
+ .logbutton:hover{
+    background-color: transparent;
+    /* border: 2px solid white; */
+    width: 100%;
+    color: white;
+ }
+ 
+ .footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+ }
+
+ .footer label{
+color: white;
+ }
+ .footer button{
+    background-color: transparent;
+    font-weight: bold;
+    border: none;
+    color: white;
+
+ }

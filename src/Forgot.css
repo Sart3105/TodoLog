@@ -1,0 +1,111 @@
+.m1{
+    display: flex;
+    justify-content: center;
+    
+     
+ }
+ 
+ .signIn{
+     
+     backdrop-filter: blur(3px);
+     border-radius: 3%;
+     margin-top: 90px;
+     height: 400px;
+     width: 35%;
+     border: 1px solid gray
+     
+ }
+ .signIn input[type=text]{
+     margin: 10px 40px;
+     padding: 5px;
+ }
+ .signIn input[type=password]{
+     margin: 10px 40px;
+     padding: 5px;
+ }
+ 
+ 
+ .signIn h4{
+     font-weight: bold;
+     color: white;
+     text-align: center;
+     margin-top: 35px;
+ }
+ 
+ ::placeholder{
+     color: white;
+ }
+ 
+ .user{
+     border-radius: 18px;
+     border: 1px solid white;
+     
+     width: 80%;
+     height: 35px;
+     color: white;
+     margin-left: 10%;
+     margin-top: 20px;
+     background: none;
+ }
+ 
+ .bottom label{
+     color: wheat;
+     font-size: 13px;
+  }
+  .bottom{
+     margin-top: 10px;
+     margin-left: 9%;
+     display: flex;
+     /* background-color: aqua; */
+     width: 78%;
+     justify-content: space-between;
+     
+  }
+ 
+  .forgot label:hover{
+     cursor: pointer;
+     text-decoration: underline;
+  }
+ 
+ .login{
+     margin-top: 14px;
+     display: flex;
+     justify-content: center;
+ }
+ 
+  .login button{
+     background-color: white;
+     width: 80%;
+     height: 40px;
+     border-radius: 20px;
+     border: 2px solid white;
+     
+     font-weight:bold;
+  }
+  .login button:hover{
+     background-color: transparent;
+     border: 2px solid white;
+     color: white;
+  }
+  
+  .footer{
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+  }
+ 
+  .footer label{
+ color: white;
+  }
+  .footer button{
+     background-color: transparent;
+     font-weight: bold;
+     border: none;
+     color: white;
+     
+  }
+  .footer button:hover{
+    text-decoration: underline;
+    font-size: 19px;   
+   text-shadow: 1px 2px 5px powderblue;
+  }

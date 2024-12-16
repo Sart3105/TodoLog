@@ -3,8 +3,8 @@ import "./header.css";
 import Taskadd from "./Taskadd";
 
 function Header() {
+
   const [storedata, setdata] = useState([]);
-  const [temp, settemp] = useState([]);
   const [buttontext, setbutton] = useState("Add");
   const [inputVal, setinputVal] = useState("");
   
@@ -19,6 +19,7 @@ function Header() {
 
     setindex(index);
     setinputVal(storedata[index]["taskName"]);
+    console.log(inputVal);
     inputresult.current.focus();
   };
 
@@ -30,9 +31,9 @@ function Header() {
     const output = inputresult.current.value;
     let tempData = storedata;
        
-    if (output =='') {  //Ind >= 0
-       //tempData[Ind]["taskName"] = inputVal;
-       alert("Please Enter the Task")
+    if (Ind >= 0) {  
+       tempData[Ind]["taskName"] = inputVal;
+      
     } else {
       tempData.push({ taskName: inputVal, checked: false });
       
@@ -49,9 +50,11 @@ function Header() {
    
        
     tempData[index]["checked"] = event.target.checked;
-     
-    settemp([tempData[index]])
-    console.log(temp);  
+       
+    // let result = storedata[storedata.length-1];
+    // storedata[storedata.length-1] = tempData[index];
+    // tempData[index] = result
+    
        
        
     setdata([...tempData]);

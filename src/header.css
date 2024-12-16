@@ -42,16 +42,18 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+
 .t2 input[type=text] {
     width: 70%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 10px;
     font-size: 16px;
-    background-color: white;
+    background-color: transparent;
     background-image: url('./images/add.png');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
   }
+  
 
